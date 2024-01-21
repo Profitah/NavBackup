@@ -41,3 +41,16 @@
 a{
     color: white;
 }
+
+
+.navBtn1,
+.navBtn2 {
+    padding-top: 3vh;
+    padding-bottom: 1.5vh;
+    margin-left: auto;
+}
+
+.navBtn2 {
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
