@@ -4,18 +4,17 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { FiAlignJustify } from 'react-icons/fi';
 import "../../Styles/Home/Nav.css";
 
-
 const NavBar = () => {
-    const [isNavVisible, setIsNavVisible] = useState(false);
+    const [isNavVisible, setIsNavVisible] = useState(false); 
 
     const toggleNav = () => {
-        setIsNavVisible(!isNavVisible);
+        setIsNavVisible(!isNavVisible); 
     };
 
     return (
         <div className="Nav">
             <AiOutlineUser />
-            <FiAlignJustify onClick={toggleNav} />
+            <FiAlignJustify onClick={toggleNav} /> 
             {isNavVisible && (
                 <ul className="nav-menu">
                     <Link to="/home"><li>홈</li></Link>
